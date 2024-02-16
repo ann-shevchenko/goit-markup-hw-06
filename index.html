@@ -112,7 +112,8 @@
                 <h2 class="blok-title team-titel">Our team</h2>
                 <ul class="team-list">
                     <li class="team-item">
-                        <img src="./images/card-pd.jpg" alt="foto" width="264" height="260" />
+                        <img srcset="./images/card-pd.jpg 1x, ./images/card-pd-2x.jpg 2x" src="./images/card-pd.jpg"
+                            alt="foto" width="264" height="260" />
                         <div class="team-cart-btm">
                             <h3 class="item-subtitle team-subtitel">Mark Guerrero</h3>
                             <p class="item-text team-text">Product Designer</p>
@@ -150,7 +151,8 @@
                         </div>
                     </li>
                     <li class="team-item">
-                        <img src="./images/card-fd.jpg" alt="foto" width="264" height="260" />
+                        <img srcset="./images/card-fd.jpg 1x, ./images/card-fd-2x.jpg 2x" src="./images/card-fd.jpg"
+                            alt="foto" width="264" height="260" />
                         <div class="team-cart-btm">
                             <h3 class="item-subtitle team-subtitel">Tom Ford</h3>
                             <p class="item-text team-text">Frontend Developer</p>
@@ -188,7 +190,8 @@
                         </div>
                     </li>
                     <li class="team-item">
-                        <img src="./images/card-m.jpg" alt="foto" width="264" height="260" />
+                        <img srcset="./images/card-m.jpg 1x, ./images/card-m-2x.jpg 2x" src="./images/card-m.jpg"
+                            alt="foto" width="264" height="260" />
                         <div class="team-cart-btm">
                             <h3 class="item-subtitle team-subtitel">Camila Garcia</h3>
                             <p class="item-text team-text">Marketing</p>
@@ -226,7 +229,8 @@
                         </div>
                     </li>
                     <li class="team-item">
-                        <img src="./images/card-ui.jpg" alt="foto" width="264" height="260" />
+                        <img srcset="./images/card-ui.jpg 1x, ./images/card-ui-2x.jpg 2x" src="./images/card-ui.jpg"
+                            alt="foto" width="264" height="260" />
                         <div class="team-cart-btm">
                             <h3 class="item-subtitle team-subtitel">Daniel Wilson</h3>
                             <p class="item-text team-text">UI Designer</p>
@@ -273,7 +277,15 @@
                     <li class="portfolio-item">
 
                         <div class="cover-container">
-                            <img src="./images/banking-app.jpg" alt="Banking App" width="360" height="300">
+                            <picture>
+                                <source media="(min-width: 1158px)"
+                                    srcset="./images/banking-app.jpg 1x, ./images/banking-app-2x.jpg 2x">
+                                <source media="(min-width: 768px)"
+                                    srcset="./images/banking-app-tab.jpg 1x, ./images/banking-app-tab-2x.jpg 2x">
+                                <source media="(max-width: 767px)"
+                                    srcset="./images/banking-app-mob.jpg 1x, ./images/banking-app-mob-2x.jpg 2x">
+                                <img src="./images/banking-app.jpg" alt="Banking App" width="360" >
+                            </picture>
 
                             <p class="portfolio-cover-text">14 Stylish and User-Friendly App Design Concepts · Task
                                 Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App ·
@@ -287,7 +299,15 @@
                     </li>
                     <li class="portfolio-item">
                         <div class="cover-container">
-                            <img src="./images/cashless-payment.jpg" alt="Cashless Payment" width="360" height="300">
+                            <picture>
+                                <source media="(min-width: 1158px)"
+                                    srcset="./images/cashless-payment.jpg 1x, ./images/cashless-payment-2x.jpg 2x">
+                                <source media="(min-width: 768px)"
+                                    srcset="./images/cashless-payment-tab.jpg 1x, ./images/cashless-payment-tab-2x.jpg 2x">
+                                <source media="(max-width: 767px)"
+                                    srcset="./images/cashless-payment-mob.jpg 1x, ./images/cashless-payment-mob-2x.jpg 2x">
+                                <img src="./images/cashless-payment.jpg" alt="Banking App" width="360" >
+                            </picture>
 
                             <p class="portfolio-cover-text">14 Stylish and User-Friendly App Design Concepts · Task
                                 Manager App · Calorie
@@ -301,7 +321,15 @@
                     </li>
                     <li class="portfolio-item">
                         <div class="cover-container">
-                            <img src="./images/meditation-app.jpg" alt="Meditation App" width="360" height="300">
+                            <picture>
+                                <source media="(min-width: 1158px)"
+                                    srcset="./images/meditation-app.jpg 1x, ./images/meditation-app-2x.jpg 2x">
+                                <source media="(min-width: 768px)"
+                                    srcset="./images/meditation-app-tab.jpg 1x, ./images/meditation-app-tab-2x.jpg 2x">
+                                <source media="(max-width: 767px)"
+                                    srcset="./images/meditation-app-mob.jpg 1x, ./images/meditation-app-mob-2x.jpg 2x">
+                                <img src="./images/meditation-app.jpg" alt="Banking App" width="360" >
+                            </picture>
 
                             <p class="portfolio-cover-text">14 Stylish and User-Friendly App Design Concepts · Task
                                 Manager App · Calorie
@@ -315,7 +343,15 @@
                     </li>
                     <li class="portfolio-item">
                         <div class="cover-container">
-                            <img src="./images/taxi-service.jpg" alt="Taxi Service" width="360" height="300">
+                            <picture>
+                                <source media="(min-width: 1158px)"
+                                    srcset="./images/taxi-service.jpg 1x, ./images/taxi-service-2x.jpg 2x">
+                                <source media="(min-width: 768px)"
+                                    srcset="./images/taxi-service-tab.jpg 1x, ./images/taxi-service-tab-2x.jpg 2x">
+                                <source media="(max-width: 767px)"
+                                    srcset="./images/taxi-service-mob.jpg 1x, ./images/taxi-service-mob-2x.jpg 2x">
+                                <img src="./images/taxi-service.jpg" alt="Banking App" width="360" >
+                            </picture>
 
                             <p class="portfolio-cover-text">14 Stylish and User-Friendly App Design Concepts · Task
                                 Manager App · Calorie
@@ -329,8 +365,16 @@
                     </li>
                     <li class="portfolio-item">
                         <div class="cover-container">
-                            <img src="./images/screen-illustrations.jpg" alt="Screen Illustrations" width="360"
-                                height="300">
+                            <picture>
+                                <source media="(min-width: 1158px)"
+                                    srcset="./images/screen-illustrations.jpg 1x, ./images/screen-illustrations-2x.jpg 2x">
+                                <source media="(min-width: 768px)"
+                                    srcset="./images/screen-illustrations-tab.jpg 1x, ./images/screen-illustrations-tab-2x.jpg 2x">
+                                <source media="(max-width: 767px)"
+                                    srcset="./images/screen-illustrations-mob.jpg 1x, ./images/screen-illustrations-mob-2x.jpg 2x">
+                                <img src="./images/screen-illustrations.jpg" alt="Banking App" width="360" >
+                            </picture>
+                            
 
                             <p class="portfolio-cover-text">14 Stylish and User-Friendly App Design Concepts · Task
                                 Manager App · Calorie
@@ -344,7 +388,15 @@
                     </li>
                     <li class="portfolio-item">
                         <div class="cover-container">
-                            <img src="./images/online-courses.jpg" alt="Online Courses" width="360" height="300">
+                            <picture>
+                                <source media="(min-width: 1158px)"
+                                    srcset="./images/screen-illustrations.jpg 1x, ./images/screen-illustrations-2x.jpg 2x">
+                                <source media="(min-width: 768px)"
+                                    srcset="./images/screen-illustrations-tab.jpg 1x, ./images/screen-illustrations-tab-2x.jpg 2x">
+                                <source media="(max-width: 767px)"
+                                    srcset="./images/screen-illustrations-mob.jpg 1x, ./images/screen-illustrations-mob-2x.jpg 2x">
+                                <img src="./images/screen-illustrations.jpg" alt="Banking App" width="360" >
+                            </picture>
 
                             <p class="portfolio-cover-text">14 Stylish and User-Friendly App Design Concepts · Task
                                 Manager App · Calorie
